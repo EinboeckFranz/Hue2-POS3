@@ -11,8 +11,9 @@ public class HalloJavamitForEach {
     }
 
     public void run() {
-        for (String s : liste)
+        for (String s : liste) {
             System.out.println(s);
+        }
     }
 
     public static void main(String[] args) {
