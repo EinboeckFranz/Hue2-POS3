@@ -10,5 +10,6 @@ public class Main {
                 noneMatch(n -> (number % n == 0)));
         numberTest.setPalindromeTester(number -> number == Integer.reverse(number));
         numberTest.testFile();
+
     }
 }
