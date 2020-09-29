@@ -1,4 +1,4 @@
-package pos3.feinboeck18;
+package pos3.feinboeck18.bsp2;
 
 import java.util.Arrays;
 import java.util.List;
