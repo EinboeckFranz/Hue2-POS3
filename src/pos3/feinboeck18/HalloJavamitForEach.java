@@ -13,7 +13,9 @@ public class HalloJavamitForEach {
     public void run() {
         /*for (String s : liste) System.out.println(s);*/
 
-        liste.forEach((String s) -> System.out.println(s));
+        /*liste.forEach((String s) -> System.out.println(s));*/
+
+        liste.forEach(System.out::println);
     }
 
     public static void main(String[] args) {
