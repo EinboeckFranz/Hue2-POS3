@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3cd469e1-8600-4345-a1d1-2f6d4d2aebb7" name="Default Changelist" comment="Created Main.java - also implemented those Methods with Lambdas and Streams">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hue2-LambdaExpressions/pos3/feinboeck18/HalloJavamitForEach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp3/NumberTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp3/NumberTester.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\franz\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.5428.22\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iB7bFL8gQrXgkERT4fVEmCSRUz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last.edited.regexp" value="Sample Text" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="HalloJavamitForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pos3.feinboeck18.bsp2.HalloJavamitForEach" />
+      <module name="Hue2-LambdaExpressions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pos3.feinboeck18.bsp2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pos3.feinboeck18.bsp3.Main" />
+      <module name="Hue2-LambdaExpressions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pos3.feinboeck18.bsp3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HalloJavamitForEach" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cd469e1-8600-4345-a1d1-2f6d4d2aebb7" name="Default Changelist" comment="" />
+      <created>1601369202710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601369202710</updated>
+      <workItem from="1601369203890" duration="9630000" />
+      <workItem from="1601390184786" duration="17000" />
+      <workItem from="1601615271182" duration="2080000" />
+      <workItem from="1601620292015" duration="1787000" />
+      <workItem from="1601628933959" duration="452000" />
+      <workItem from="1601638836967" duration="818000" />
+    </task>
+    <task id="LOCAL-00001" summary="Outcommented the LambdaExpr - Now used the Method Reference">
+      <created>1601372069061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601372069061</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Moved HalloJavamitForEach.java to 'bsp2' package, created 'bsp3' package">
+      <created>1601372236028</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601372236028</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added a Constructor and Methods (setOddEvenTester, setPrimeTester, setPalindromeTester, testFile), also created a inner class interface called NumberTest">
+      <created>1601372968191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601372968191</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added a Constructor and Methods (setOddEvenTester, setPrimeTester, setPalindromeTester, testFile), also created a inner class interface called NumberTest">
+      <created>1601377034556</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601377034556</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created Main.java - also implemented those Methods with Lambdas and Streams">
+      <created>1601377225811</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601377225811</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created File 'file.txt' - filled it with example Numbers">
+      <created>1601629152284</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601629152284</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Outcommented the LambdaExpr - Now used the Method Reference" />
+    <MESSAGE value="Moved HalloJavamitForEach.java to 'bsp2' package, created 'bsp3' package" />
+    <MESSAGE value="Added a Constructor and Methods (setOddEvenTester, setPrimeTester, setPalindromeTester, testFile), also created a inner class interface called NumberTest" />
+    <MESSAGE value="Created Main.java - also implemented those Methods with Lambdas and Streams" />
+    <MESSAGE value="Created File 'file.txt' - filled it with example Numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created File 'file.txt' - filled it with example Numbers" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="0" key="#Auto_Import" timestamp="1601373014532">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="0" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1601373014532" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1601370970207">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601370970207" />
+    <state x="566" y="319" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1601615309486">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="319" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1601615309486" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1601377124287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601377124287" />
+    <state x="184" y="65" key="DiffContextDialog" timestamp="1601377094634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="184" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1601377094634" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601639235371">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601639235371" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1601639235371">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601639235371" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1601639235371">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601639235371" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1601639235371">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601639235371" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1601621403256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601621403256" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601629158200">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601629158200" />
+    <state x="410" y="139" width="700" height="530" key="recent.locations.popup" timestamp="1601615335549">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1601615335549" />
+  </component>
+</project>
