@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="3cd469e1-8600-4345-a1d1-2f6d4d2aebb7" name="Default Changelist" comment="Created Main.java - also implemented those Methods with Lambdas and Streams">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hue2-LambdaExpressions/pos3/feinboeck18/bsp3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hue2-LambdaExpressions/pos3/feinboeck18/bsp3/NumberTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hue2-LambdaExpressions/pos3/feinboeck18/bsp3/NumberTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp3/MainBsp3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/ComplexCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/ComplexCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/MainBsp4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/MainBsp4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/RelationalCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/RelationalCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/VectorCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/VectorCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +58,7 @@
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainBsp4">
     <configuration name="HalloJavamitForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pos3.feinboeck18.bsp2.HalloJavamitForEach" />
       <module name="Hue2-LambdaExpressions" />
@@ -65,12 +72,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pos3.feinboeck18.bsp3.Main" />
+    <configuration name="MainBsp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pos3.feinboeck18.bsp3.MainBsp3" />
       <module name="Hue2-LambdaExpressions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pos3.feinboeck18.bsp3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainBsp4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pos3.feinboeck18.bsp4.MainBsp4" />
+      <module name="Hue2-LambdaExpressions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pos3.feinboeck18.bsp4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,7 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainBsp4" />
+        <item itemvalue="Application.MainBsp3" />
         <item itemvalue="Application.HalloJavamitForEach" />
       </list>
     </recent_temporary>
@@ -109,7 +130,13 @@
       <workItem from="1601615271182" duration="2080000" />
       <workItem from="1601620292015" duration="1787000" />
       <workItem from="1601628933959" duration="452000" />
-      <workItem from="1601638836967" duration="1950000" />
+      <workItem from="1601638836967" duration="2282000" />
+      <workItem from="1601766629011" duration="3527000" />
+      <workItem from="1601804671963" duration="3969000" />
+      <workItem from="1601874784997" duration="2062000" />
+      <workItem from="1601890859111" duration="2175000" />
+      <workItem from="1601911353584" duration="634000" />
+      <workItem from="1601921215891" duration="399000" />
     </task>
     <task id="LOCAL-00001" summary="Outcommented the LambdaExpr - Now used the Method Reference">
       <created>1601372069061</created>
@@ -167,7 +194,35 @@
       <option name="project" value="LOCAL" />
       <updated>1601640691606</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Created all needed Methods.">
+      <created>1601641614593</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601641614593</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Created Main Method for Bsp 4">
+      <created>1601766927580</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601766927580</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added class logic to Calculator-Classes">
+      <created>1601768135729</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601768135729</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added Class-logic to Calculator-Classes">
+      <created>1601768169276</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601768169276</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,56 +248,10 @@
     <MESSAGE value="Created File 'file.txt' - filled it with example Numbers" />
     <MESSAGE value="Finished my actions in 'bsp3' package, now editing Bsp 4" />
     <MESSAGE value="Crated Bsp4 Package, also created class 'Number.java'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crated Bsp4 Package, also created class 'Number.java'" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="540" y="0" key="#Auto_Import" timestamp="1601373014532">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="540" y="0" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1601373014532" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1601641094274">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601641094274" />
-    <state x="566" y="319" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1601615309486">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="566" y="319" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1601615309486" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1601377124287">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601377124287" />
-    <state x="184" y="65" key="DiffContextDialog" timestamp="1601377094634">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="184" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1601377094634" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601639235371">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601639235371" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1601639235371">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601639235371" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1601639235371">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601639235371" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1601639235371">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601639235371" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1601621403256">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601621403256" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601640695639">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601640695639" />
-    <state x="410" y="139" width="700" height="530" key="recent.locations.popup" timestamp="1601615335549">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1601615335549" />
+    <MESSAGE value="Created all needed Methods." />
+    <MESSAGE value="Created Main Method for Bsp 4" />
+    <MESSAGE value="Added class logic to Calculator-Classes" />
+    <MESSAGE value="Added Class-logic to Calculator-Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Class-logic to Calculator-Classes" />
   </component>
 </project>

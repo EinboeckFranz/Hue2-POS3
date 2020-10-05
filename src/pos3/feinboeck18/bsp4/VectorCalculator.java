@@ -1,8 +1,30 @@
 package pos3.feinboeck18.bsp4;
 
 public class VectorCalculator extends AbstractCalculator {
-    public VectorCalculator(CalculationOperation add, CalculationOperation subtract, CalculationOperation multiply, CalculationOperation divide) {
-        super(add, subtract, multiply, divide);
+    public VectorCalculator() {
+        super((Number a, Number b) -> {
+            Number vectorToReturn = new Number();
+            vectorToReturn.setA(a.getA() + b.getA());
+            vectorToReturn.setB(a.getB() + b.getB());
+            return vectorToReturn;
+        },
+        (Number a, Number b) -> {
+            Number vectorToReturn = new Number();
+            vectorToReturn.setA(a.getA() - b.getA());
+            vectorToReturn.setB(a.getB() - b.getB());
+            return vectorToReturn;
+        },
+        (Number a, Number b) -> {
+            Number vectorToReturn = new Number();
+            vectorToReturn.setA(a.getA() * b.getB() - b.getA() * a.getB());
+            return vectorToReturn;
+        },
+        (Number a, Number b) -> {
+            Number vectorToReturn = new Number();
+            vectorToReturn.setA(a.getA() / b.getA());
+            vectorToReturn.setB(a.getB() / b.getB());
+            return vectorToReturn;
+        });
     }
 
     @Override

@@ -1,8 +1,31 @@
 package pos3.feinboeck18.bsp4;
 
 public class ComplexCalculator extends AbstractCalculator {
-    public ComplexCalculator(CalculationOperation add, CalculationOperation subtract, CalculationOperation multiply, CalculationOperation divide) {
-        super(add, subtract, multiply, divide);
+    public ComplexCalculator() {
+        super((Number a, Number b) -> {
+            Number complexNumberToReturn = new Number();
+            complexNumberToReturn.setA(a.getA() + b.getA());
+            complexNumberToReturn.setB(a.getB() + b.getB());
+            return complexNumberToReturn;
+        },
+        (Number a, Number b) -> {
+            Number complexNumberToReturn = new Number();
+            complexNumberToReturn.setA(a.getA() - b.getA());
+            complexNumberToReturn.setB(a.getB() - b.getB());
+            return complexNumberToReturn;
+        },
+        (Number a, Number b) -> {
+            Number complexNumberToReturn = new Number();
+            complexNumberToReturn.setA((a.getA() * b.getA()) - (a.getB() * b.getB()));
+            complexNumberToReturn.setB((a.getB() * b.getA()) + (a.getA() * b.getB()));
+            return  complexNumberToReturn;
+        },
+        (Number a, Number b) -> {
+            Number complexNumberToReturn = new Number();
+            complexNumberToReturn.setA(((a.getA() * b.getA()) + (a.getB() * b.getB())) / (((b.getA()) * b.getA()) + (b.getB() * b.getB())));
+            complexNumberToReturn.setB(((a.getB() * b.getA()) - (a.getA() * b.getB())) / (((b.getA()) * b.getA()) + (b.getB() * b.getB())));
+            return  complexNumberToReturn;
+        });
     }
 
     @Override

@@ -1,9 +1,8 @@
 package pos3.feinboeck18.bsp3;
 
-import java.util.Scanner;
 import java.util.stream.IntStream;
 
-public class Main {
+public class MainBsp3 {
     public static void main(String[] args) {
         run();
     }
