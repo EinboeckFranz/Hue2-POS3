@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cd469e1-8600-4345-a1d1-2f6d4d2aebb7" name="Default Changelist" comment="Implemented all Calculators and MainBsp4.java - Next commit step will be bugfixes" />
+    <list default="true" id="3cd469e1-8600-4345-a1d1-2f6d4d2aebb7" name="Default Changelist" comment="Implemented all Calculators and MainBsp4.java - Next commit step will be bugfixes">
+      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/ComplexCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/ComplexCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/VectorCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/VectorCalculator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +130,7 @@
       <workItem from="1601874784997" duration="2062000" />
       <workItem from="1601890859111" duration="2175000" />
       <workItem from="1601911353584" duration="634000" />
-      <workItem from="1601921215891" duration="718000" />
+      <workItem from="1601921215891" duration="1185000" />
     </task>
     <task id="LOCAL-00001" summary="Outcommented the LambdaExpr - Now used the Method Reference">
       <created>1601372069061</created>
@@ -220,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601921757400</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Implemented all Calculators and MainBsp4.java - Next commit step will be bugfixes">
+      <created>1601921968181</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601921968181</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

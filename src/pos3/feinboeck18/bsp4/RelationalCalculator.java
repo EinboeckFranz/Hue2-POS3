@@ -1,7 +1,6 @@
 package pos3.feinboeck18.bsp4;
 
 public class RelationalCalculator extends AbstractCalculator {
-<<<<<<< HEAD
     public RelationalCalculator() {
         super((Number a, Number b) -> {
             Number relationalNumberToReturn = new Number();
@@ -27,10 +26,6 @@ public class RelationalCalculator extends AbstractCalculator {
             relationalNumberToReturn.setB(a.getB() * b.getA());
             return relationalNumberToReturn;
         });
-=======
-    public RelationalCalculator(CalculationOperation add, CalculationOperation subtract, CalculationOperation multiply, CalculationOperation divide) {
-        super(add, subtract, multiply, divide);
->>>>>>> 7bc71ca5966ac43b9d6b7fc1083c1b57af5430af
     }
 
     @Override
