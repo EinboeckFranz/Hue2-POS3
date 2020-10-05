@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cd469e1-8600-4345-a1d1-2f6d4d2aebb7" name="Default Changelist" comment="Created Main.java - also implemented those Methods with Lambdas and Streams">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hue2-LambdaExpressions/pos3/feinboeck18/bsp3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hue2-LambdaExpressions/pos3/feinboeck18/bsp3/NumberTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hue2-LambdaExpressions/pos3/feinboeck18/bsp3/NumberTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp3/MainBsp3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/ComplexCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/ComplexCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/MainBsp4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/MainBsp4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/RelationalCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/RelationalCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/VectorCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/VectorCalculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="3cd469e1-8600-4345-a1d1-2f6d4d2aebb7" name="Default Changelist" comment="Implemented all Calculators and MainBsp4.java - Next commit step will be bugfixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +127,7 @@
       <workItem from="1601874784997" duration="2062000" />
       <workItem from="1601890859111" duration="2175000" />
       <workItem from="1601911353584" duration="634000" />
-      <workItem from="1601921215891" duration="399000" />
+      <workItem from="1601921215891" duration="718000" />
     </task>
     <task id="LOCAL-00001" summary="Outcommented the LambdaExpr - Now used the Method Reference">
       <created>1601372069061</created>
@@ -222,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601768169276</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Implemented all Calculators and MainBsp4.java - Next commit step will be bugfixes">
+      <created>1601921757400</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601921757400</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +250,7 @@
     <MESSAGE value="Created Main Method for Bsp 4" />
     <MESSAGE value="Added class logic to Calculator-Classes" />
     <MESSAGE value="Added Class-logic to Calculator-Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Class-logic to Calculator-Classes" />
+    <MESSAGE value="Implemented all Calculators and MainBsp4.java - Next commit step will be bugfixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented all Calculators and MainBsp4.java - Next commit step will be bugfixes" />
   </component>
 </project>
