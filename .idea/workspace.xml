@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cd469e1-8600-4345-a1d1-2f6d4d2aebb7" name="Default Changelist" comment="Implemented all Calculators and MainBsp4.java - Next commit step will be bugfixes">
-      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/ComplexCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/ComplexCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/VectorCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/VectorCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/MainBsp4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/MainBsp4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +130,7 @@
       <workItem from="1601874784997" duration="2062000" />
       <workItem from="1601890859111" duration="2175000" />
       <workItem from="1601911353584" duration="634000" />
-      <workItem from="1601921215891" duration="1185000" />
+      <workItem from="1601921215891" duration="1902000" />
     </task>
     <task id="LOCAL-00001" summary="Outcommented the LambdaExpr - Now used the Method Reference">
       <created>1601372069061</created>

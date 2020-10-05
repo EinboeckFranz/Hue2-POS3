@@ -41,6 +41,11 @@ public class MainBsp4 {
             if(erg == null)
                 System.out.println("Unable to Calculate");
             else {
+                if(chosenMenuOption == 2 && calcOption == 3)
+                    System.out.println("" +
+                            "-----------------------" +
+                            "\nSum = " + erg.getA() +
+                            "\n-----------------------");
                 System.out.println("" +
                         "-----------------------" +
                         "\na = " + erg.getA() +
