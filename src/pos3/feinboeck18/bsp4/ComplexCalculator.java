@@ -1,6 +1,7 @@
 package pos3.feinboeck18.bsp4;
 
 public class ComplexCalculator extends AbstractCalculator {
+<<<<<<< HEAD
     public ComplexCalculator() {
         super((Number a, Number b) -> {
             Number complexNumberToReturn = new Number();
@@ -26,6 +27,10 @@ public class ComplexCalculator extends AbstractCalculator {
             complexNumberToReturn.setB(((a.getB() * b.getA()) - (a.getA() * b.getB())) / (((b.getA()) * b.getA()) + (b.getB() * b.getB())));
             return  complexNumberToReturn;
         });
+=======
+    public ComplexCalculator(CalculationOperation add, CalculationOperation subtract, CalculationOperation multiply, CalculationOperation divide) {
+        super(add, subtract, multiply, divide);
+>>>>>>> 7bc71ca5966ac43b9d6b7fc1083c1b57af5430af
     }
 
     @Override
@@ -47,4 +52,8 @@ public class ComplexCalculator extends AbstractCalculator {
     public Number divide(Number a, Number b) {
         return divide.calc(a, b);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7bc71ca5966ac43b9d6b7fc1083c1b57af5430af
