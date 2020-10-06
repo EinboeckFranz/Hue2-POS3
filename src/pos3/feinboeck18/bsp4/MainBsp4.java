@@ -19,6 +19,10 @@ public class MainBsp4 {
 
         while (true) {
             chosenMenuOption = printMenu();
+            if(chosenMenuOption == 4) {
+                System.out.println("Shutting down ...");
+                System.exit(0);
+            }
             Number[] numbs = getNumbers();
             int calcOption = choseCalcOption();
             switch(chosenMenuOption) {
@@ -31,10 +35,6 @@ public class MainBsp4 {
                 case 3:
                     erg = calcWithOperator(this.complexCalculator, calcOption, numbs);
                     break;
-                case 4:
-                    System.out.println("Shutting down ...");
-                    System.exit(0);
-                break;
                 default:
                     System.out.println("Unknown Operation!");
             }
@@ -68,6 +68,9 @@ public class MainBsp4 {
                 return calculator.multiply(numbs[0], numbs[1]);
             case 4:
                 return calculator.divide(numbs[0], numbs[1]);
+            case 5:
+                Number[] numbers = getNumbers();
+                return calcWithOperator(calculator, choseCalcOption(), numbers);
             default:
                 return null;
         }

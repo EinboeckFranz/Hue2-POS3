@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cd469e1-8600-4345-a1d1-2f6d4d2aebb7" name="Default Changelist" comment="Implemented all Calculators and MainBsp4.java - Next commit step will be bugfixes">
+    <list default="true" id="3cd469e1-8600-4345-a1d1-2f6d4d2aebb7" name="Default Changelist" comment="Fixed Output if Scalar should be calculated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/MainBsp4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pos3/feinboeck18/bsp4/MainBsp4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,17 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainBsp4" />
@@ -130,7 +118,8 @@
       <workItem from="1601874784997" duration="2062000" />
       <workItem from="1601890859111" duration="2175000" />
       <workItem from="1601911353584" duration="634000" />
-      <workItem from="1601921215891" duration="1902000" />
+      <workItem from="1601921215891" duration="2114000" />
+      <workItem from="1601964947759" duration="1705000" />
     </task>
     <task id="LOCAL-00001" summary="Outcommented the LambdaExpr - Now used the Method Reference">
       <created>1601372069061</created>
@@ -230,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601921968181</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fixed Output if Scalar should be calculated.">
+      <created>1601923302851</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601923302851</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +257,7 @@
     <MESSAGE value="Added class logic to Calculator-Classes" />
     <MESSAGE value="Added Class-logic to Calculator-Classes" />
     <MESSAGE value="Implemented all Calculators and MainBsp4.java - Next commit step will be bugfixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented all Calculators and MainBsp4.java - Next commit step will be bugfixes" />
+    <MESSAGE value="Fixed Output if Scalar should be calculated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Output if Scalar should be calculated." />
   </component>
 </project>
