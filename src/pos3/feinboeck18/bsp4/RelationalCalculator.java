@@ -4,12 +4,21 @@ public class RelationalCalculator extends AbstractCalculator {
     public RelationalCalculator() {
         super((Number a, Number b) -> {
             Number relationalNumberToReturn = new Number();
+            if(a.getB() == b.getB()) {
+                relationalNumberToReturn.setA(a.getA() + b.getA());
+                relationalNumberToReturn.setB(a.getB());
+                return relationalNumberToReturn;
+            }
             relationalNumberToReturn.setA(a.getA() * b.getB() + b.getA() * a.getB());
             relationalNumberToReturn.setB(a.getB() * b.getB());
             return relationalNumberToReturn;
         },
         (Number a, Number b) -> {
             Number relationalNumberToReturn = new Number();
+            if(a.getB() == b.getB()) {
+                relationalNumberToReturn.setA(a.getA() - b.getA());
+                relationalNumberToReturn.setB(a.getB());
+            }
             relationalNumberToReturn.setA(a.getA() * b.getB() + -b.getA() * a.getB());
             relationalNumberToReturn.setB(a.getB() * b.getB());
             return relationalNumberToReturn;
